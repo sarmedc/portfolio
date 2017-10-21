@@ -1,3 +1,3 @@
 My personal portfolio
 
-Visit as sarmedc.github.io
+Visit at https://sarmedc.github.io/portfolio
