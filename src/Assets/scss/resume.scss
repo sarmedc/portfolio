@@ -1,0 +1,45 @@
+@import "_config.scss";
+
+.frame{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 0;
+
+    padding: 10px;
+}
+
+.resumeTitle{
+	margin: 3%;
+
+}
+
+.btnLinks{
+	margin: 30px;
+}
+
+.btn{
+	border: 2px solid $green;
+
+	&:hover{
+		@include transition(.4s ease-in-out);
+		background-color: $lime;
+		text-decoration: none;
+	}
+
+	&:focus{
+		outline: 2px solid $green;
+	}
+}
+
+.link{
+	text-decoration: none;
+	color: $green;
+	width: 100%;
+
+	&:hover{
+		color: $white
+	}
+
+
+}

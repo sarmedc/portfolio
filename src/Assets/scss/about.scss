@@ -1,0 +1,37 @@
+@import "_config.scss";
+
+body{
+	background: $darkgrey;
+	text-align: center;
+}
+
+h1{
+	color: $white;
+	margin: 5% auto;
+}
+
+
+.row{
+	height: 100%;
+}
+
+.col{
+	width: 48.5%;
+	vertical-align: top;
+	display: inline-block;
+	margin: 0 auto;
+	float: left;
+
+}
+
+
+p{
+	color: white;
+	font-size: 25px;	
+	margin: 5% auto;
+	margin-right: 10%;
+}
+
+#key-words{
+	color: $green;
+}
